@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --base-color: white;
+    --blour-value: 0px;
+    --wrapper-border: 1px solid red;
+}
+body{
+    background-color: rgb(140, 0, 255);
+}
+.main_wrapper{
+    margin-top: 50px;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    color: var(--base-color);
+    text-align: center;
+    font-weight: bolder;
+    z-index: 999;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main_wrapper span{
+    font-size: 25px;
+}
+.wrapper{
+    margin-top: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: var(--wrapper-border);
+    width: 40%;
+    height: 350px;
+    display: grid;
+    align-content: center;
+    font-weight: bolder;
+    color: var(--base-color);
+    box-shadow: 0 0 100px -10px var(--base-color);
+}
+.wrapper_text{
+    position: absolute;
+    color: var(--base-color);
+    font-size: 60px !important;
+    text-align: center;
+    top: 40%;
+    left: 30px;
+}
+.wrapper img{
+    filter: blur(var(--blour-value));
+    z-index: -999;
+    height: 350px !important; 
+
+}
+.color_input{
+
+}
+.blour_input{
+    height: 5px;
+    width: 25%;
+}
+.blour_input_text{
+    font-weight: bolder;
+}
+.padding_input{
+    height: 5px;
+    width: 25%;
+
+}
+.margin_input{
+    height: 5px;
+    width: 25%;
+}
+.profetion{
+    color: var(--text-color);
+}
+.name{
+    color: var(--text-color);
+}

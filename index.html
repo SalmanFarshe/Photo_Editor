@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dynamic CSS Variable</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="main_wrapper">
+			<div class="overlay"></div>
+			<h1 class="h1">
+				Hei i am <span class="name">Salman Farshe</span> <br />
+				a full stack
+				<span class="profetion">Web Developer</span>
+			</h1>
+			<span class="blour_input_text">Make Blour</span>
+			<input type="range" value="0" max="10" name="blour-value" data-px="px" class="blour_input" />
+			<br />
+			<br />
+			<span>Make Border</span>
+			<input type="range" value="1" max="30" name="wrapper-border" data-px="px solid" class="margin_input" />
+			<br />
+			<br />
+			<span>Select your Color</span>
+			<input type="color" name="base-color" class="color_input" />
+			<div class="wrapper">
+				<img src="img/imae-1.jpg" style="height: 250px; width: 100%;" alt="" class="">
+				<span class="wrapper_text">Salman Farshe</span>
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
